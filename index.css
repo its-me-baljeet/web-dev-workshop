@@ -1,0 +1,201 @@
+/* 
+. represents class
+#reperesents id
+*/
+.main-page {
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgb(20, 20, 55);
+    color: white;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    /* for horizontal align */
+}
+
+.profile-img {
+    border-radius: 50%;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    /* for vertical align */
+    margin: 15px;
+    font-size: 15px;
+}
+
+.nav-list {
+    display: flex;
+    list-style-type: none;
+}
+
+.resume-button {
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid orange;
+    border-radius: 10%;
+}
+
+.nav-list>li {
+    margin: 15px;
+    font-size: 15px;
+}
+
+.main-content {
+    display: flex;
+}
+
+.main-left {
+    width: 50%;
+    padding: 40px;
+}
+
+.left-explorin-text,
+.placement-series-text {
+    color: darkorange;
+}
+
+.main-right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-right img {
+    border: 1px white;
+    border-radius: 200px;
+}
+
+.skills,
+.series,
+.projects {
+    padding-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(234, 205, 152), rgb(163, 163, 238));
+}
+
+.contact {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 50px;
+    text-align: center;
+    background-color: rgb(20, 20, 55);
+    color: white;
+    padding-bottom: 50px;
+}
+
+.email a {
+    border: 1px solid orange;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.skills-info,
+.series-info,
+.projects-info,
+.education-info {
+    font-size: 22px;
+}
+
+.skills-card-container {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin-left: 8%;
+    justify-content: center;
+    box-shadow: 5px 5px 5px 5px rgb(188, 188, 188);
+    padding: 25px;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+.skills-card-container div {
+    border: 1px solid orange;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.series-button {
+    border-radius: 10px;
+    padding: 10px;
+    background-color: darkorange;
+    color: white;
+    font-size: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: Poppins;
+    margin-bottom: 50px;
+}
+
+.series-video {
+    display: flex;
+    justify-content: space-around;
+}
+
+.series-video div iframe {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.series-video div {
+    width: 25%;
+    height: 30vh;
+    margin: 20px;
+}
+
+.projects-card {
+    display: flex;
+    justify-content: space-around;
+}
+
+.projects-card div img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.projects-card div {
+    width: 25%;
+    height: 30vh;
+    margin: 20px;
+}
+
+.education {
+    padding-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(234, 205, 152), rgb(163, 163, 238));
+}
+
+.education-card-container {
+    display: flex;
+    justify-content: center;
+}
+
+.education-card-container div {
+    border: 2px solid orange;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 20px;
+    justify-content: center;
+    text-align: left;
+}
